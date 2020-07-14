@@ -17,6 +17,8 @@ import MainButton from "../components/MainButton";
 import BodyText from "../components/BodyText";
 import DefaultStyles from "../constants/default-styles";
 
+//ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT);
+
 const generateRandomNumberBetween = (min, max, exclude) => {
   min = Math.ceil(min);
   max = Math.floor(max);

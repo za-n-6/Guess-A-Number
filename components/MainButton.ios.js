@@ -13,6 +13,11 @@ const MainButton = (props) => {
 };
 
 const styles = StyleSheet.create({
+  buttonContainer: {
+    borderRadius: 25,
+    overflow: "hidden",
+  },
+
   button: {
     backgroundColor: Colors.primary,
     paddingVertical: 12,
